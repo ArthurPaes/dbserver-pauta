@@ -1,6 +1,6 @@
 [submodule "dbserver-pauta-back"]
-	path = dbserver-pauta-back
-	url = git@github.com:ArthurPaes/dbserver-pauta-back.git
+    path = dbserver-pauta-back
+    url = https://github.com/ArthurPaes/dbserver-pauta-back.git
 [submodule "dbserver-pauta-front"]
-	path = dbserver-pauta-front
-	url = git@github.com:ArthurPaes/dbserver-pauta-front.git
+    path = dbserver-pauta-front
+    url = https://github.com/ArthurPaes/dbserver-pauta-front.git

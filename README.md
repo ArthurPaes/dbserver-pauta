@@ -35,7 +35,7 @@ $ git submodule update
 - Execute `docker-compose --build` to install all the dependencies and to run the project
 
 ```shell
-$ docker-compose --build
+$ docker-compose up --build
 ```
 - You may need to use sudo before the command depending on your installation
 
