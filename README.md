@@ -2,9 +2,13 @@ This project was made using node version 18.10.0
 
 ### Setup
 
-> Make sure you haver docker installed. You'll need it to run the application.
+> Make sure you haver git and docker installed. You'll need it to run the application.
 
->Visit their website for installation instructions: [Docker](https://docs.docker.com/engine/install/)
+>Visit their website for installation instructions: 
+
+[Docker](https://docs.docker.com/engine/install/)
+
+[Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
 ## Project Installation
 
@@ -20,6 +24,12 @@ $ git clone https://github.com/ArthurPaes/dbserver-pauta.git
 
 ```shell
 $ cd dbserver-pauta
+```
+- Execute the following commands to init and update the submodules:
+
+```shell
+$ git submodule init
+$ git submodule update
 ```
 
 - Execute `docker-compose --build` to install all the dependencies and to run the project
