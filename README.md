@@ -1,3 +1,73 @@
+This project was made using node version 18.10.0
+
+### Setup
+
+> Make sure you haver docker installed. You'll need it to run the application.
+
+>Visit their website for installation instructions: [Docker](https://docs.docker.com/engine/install/)
+
+## Project Installation
+
+### Clone
+
+- Clone this repo to your local machine using:
+
+```shell
+$ git clone https://github.com/ArthurPaes/dbserver-pauta.git
+```
+
+- Enter the folder:
+
+```shell
+$ cd dbserver-pauta
+```
+
+- Execute `docker-compose --build` to install all the dependencies and to run the project
+
+```shell
+$ docker-compose --build
+```
+- You may need to use sudo before the command depending on your installation
+
+- After executing the command, it may take a while for everything to be up and running. Wait for everything to finish
+
+- ##### The front end will be available at: http://localhost:4200 
+- ##### The back end will be available at: http://localhost:8080 
+
+
+
+### Testing
+
+- To run the tests on the front-end
+
+```shell
+$ npm run test
+```
+- To run the tests on the back-end
+
+```shell
+$ mvn test
+```
+
+# Main tools used
+
+<a href="https://www.java.com/en/">Java</a> <br/>
+<a href="https://github.com/spring-projects/spring-boot">Spring Boot</a> <br/>
+<a href="https://github.com/hibernate">Hibernate</a> <br/>
+<a href="https://github.com/postgres/postgres">PostgreSQL</a> <br/>
+<a href="https://github.com/angular/angular">Angular</a> <br/>
+<a href="https://github.com/microsoft/TypeScript">Typescript</a> <br/>
+<a href="https://github.com/karma-runner/karma">Karma</a> <br/>
+<a href="https://github.com/jasmine/jasmine">Jasmine</a> <br/>
+
+
+## License
+
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
+
+- **[MIT license](http://opensource.org/licenses/mit-license.php)**
+
+
 # Votação
 
 ## Objetivo
